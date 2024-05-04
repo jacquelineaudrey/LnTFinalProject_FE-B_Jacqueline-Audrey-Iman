@@ -64,7 +64,7 @@ body{
 }
 
 .nav-link:hover, .nav-link.active{
-    color: black;
+    color: white;
 }
 
 .nav-logo{
@@ -97,6 +97,9 @@ body{
     color: white;
 }
 
+.activee {
+    color: white;
+}
 
 .hero-title{
     font-family: 'Poppins Bold';
@@ -172,8 +175,8 @@ body{
 
 #hero-button{
     position: absolute;
-    margin-top: 15%;
-    margin-right: 10vw;
+    margin-top: 18%;
+    margin-right: 15vw;
     color: gray;
     width: auto;
     size: 0.1px;
@@ -185,8 +188,8 @@ body{
 }
 #hero-button2{
     position: absolute;
-    margin-top: 15%;
-    margin-left: 10vw;
+    margin-top: 18%;
+    margin-left: 15vw;
     width: auto;
     color: gray;
 }
@@ -197,7 +200,25 @@ body{
     
 }
 
-@media only screen and (min-width: 300px) and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
+    #hero-button{
+        margin-right: 18vw;
+    }
+    #hero-button2{
+        margin-left: 18vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #hero-button{
+        margin-right: 22vw;
+    }
+    #hero-button2{
+        margin-left: 22vw;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 850px) {
     #hero-button{
         margin-top: 30vw;
         margin-right: 40vw;
@@ -210,7 +231,7 @@ body{
     }
 }
 
-@media only screen and (min-width: 300px) and (max-width: 1000px) {
+@media only screen and (min-width: 300px) and (max-width: 850px) {
     #hero-button{
         margin-top: 30vw;
         margin-right: 40vw;
@@ -363,6 +384,19 @@ body{
     -ms-border-radius: 2vw;
     -o-border-radius: 2vw;
 }
+
+@media screen and (max-width: 1200px) {
+    .timelineTitle h1 {
+        margin-bottom: -13vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .timelineTitle h1 {
+        margin-bottom: -20vw;
+    }
+}
+
 @media only screen and (min-width: 300px) and (max-width: 1000px) {
     .timelineTitle h1{
         align-items: center;
@@ -418,8 +452,8 @@ body{
     font-weight: 300;
 }
 .timeline-content .date {
-    font-size: 12px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 400;
     margin-bottom: 10px;
     letter-spacing: 2px;
 }
